@@ -3,7 +3,7 @@ import Styled from 'styled-components'
 
 import { Color, Dimension, position, size } from '../../Style'
 
-import logo from '../../logo.svg'
+import logo from '../../Style/Images/logo.svg'
 
 interface Props extends React.ComponentPropsWithoutRef<'header'> {
 

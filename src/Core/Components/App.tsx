@@ -2,8 +2,6 @@ import React from 'react'
 import Styled from 'styled-components'
 
 import Header from './Header'
-
-import '../../App.css'
 import GlobalStyle from './GlobalStyle'
 import { Dimension } from '../../Style'
 

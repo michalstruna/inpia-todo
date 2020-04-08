@@ -5,7 +5,9 @@ enum Color {
     MEDIUM = '#555',
     MEDIUM_LIGHT = '#888',
     LIGHT = '#BBB',
-    LIGHTEST = '#EEE'
+    LIGHTEST = '#EEE',
+    GREEN = '#070',
+    RED = '#700'
 }
 
 export default Color

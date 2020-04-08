@@ -1,11 +1,21 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import App from './Core/Components/App'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import * as serviceWorker from './serviceWorker'
+
+import App from './Core/Components/App'
+import { Url } from './Utils'
+import { HomeView } from './Todo'
 
 ReactDOM.render(
     <React.StrictMode>
-        <App />
+        <App>
+            <Router>
+                <Switch>
+                    <Route exact path={Url.HOME} component={HomeView} />
+                </Switch>
+            </Router>
+        </App>
     </React.StrictMode>,
     document.getElementById('root')
 )
